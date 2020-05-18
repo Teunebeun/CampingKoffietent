@@ -1,0 +1,142 @@
+#content-container {
+    height: 500px;
+    min-width: 1000px;
+    display: flex;
+}
+
+.column {
+    width: 45%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+.big-row {
+    width: 100%;
+    height: 60%;
+}
+
+.big-box {
+    width: 100%;
+}
+
+.small-row {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.small-box {
+    width: 48.5%;
+    height: 100%;
+}
+
+.small-box:nth-child(2) {
+    margin-left: 3%;
+}
+
+.big-box, .small-box {
+    /*border: #CECBCB 2px groove;*/
+    outline: 2px groove #CECBCB;
+}
+
+th {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.small-box-text, .big-box-text {
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table a {
+    text-decoration: none;
+    color: black;
+}
+
+table tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+table tr.paginate {
+    background: white !important;
+}
+
+tr:not(:first-child) {
+    border-top: 2px solid grey;
+}
+
+tr {
+    width: 100%;
+    height: 50px;
+}
+
+td:nth-child(1), th {
+    padding-left: 5px;
+}
+
+.big-box-text td:nth-child(1) {
+    width: 45%;
+}
+
+.big-box-text td:nth-child(2) {
+    width: 22.5%;
+}
+
+.big-box-text td:nth-child(3) {
+    width: 22.5%;
+}
+
+.clickable-tr:hover, .clickable-tr:hover a {
+    background: #48618A !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.pagination nav {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.pagination ul {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+}
+
+.pagination li {
+    display: inline-block;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 3px;
+}
+
+.page-link {
+    color: black;
+    float: left;
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 2px solid #ddd;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination .active {
+    background-color: #ddd;
+}
+
+.initiative-button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+:root  {
+        font-family: "Montserrat", SansSerif;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+img.email {
+    max-width: 200px;
+    margin: 30px auto;
+}
+
+a#return {
+    color: #333333;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 40px;
+}
+
+.logo   {
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form.email {
+    min-width: unset;
+    max-width: unset;
+    text-align: center;
+}
+
+form {
+    text-align: right;
+    min-width: 200px;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+input  {
+    padding: 10px;
+    outline: none;
+    border: 0.5px solid #333333;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: #48618A;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input.email {
+    width: auto;
+    background-color: #424242;
+}
+
+form a {
+    text-decoration: none;
+    color: #48618A;
+}
+
+.content {
+    text-align: center;
+}
+
+div.error   {
+    text-align: left;
+    color: #FF1800;
+    border: 1px solid #FF1800;
+    border-radius: 5px;
+    background: 1px #F2B8B8;
+    padding: 10px;
+}
+
+span.error {
+    display: inline-block;
+    text-align: left;
+    color: #FF1800;
+    margin-bottom: 10px;
+}
+
+input.error {
+    border: 0.5px solid #FF1800;
+}
+
+div.mail {
+    background: #48618A;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 750px) {
+    a#return {
+        left: 20px;
+    }
+
+    form input  {
+    }
+}

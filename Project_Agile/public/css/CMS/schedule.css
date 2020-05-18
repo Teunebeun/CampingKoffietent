@@ -1,0 +1,185 @@
+#schedule_container{
+    width: 1650px;
+    height: auto;
+}
+#bottom_row_container, .days_container{
+    width: 1273px;
+    display:inline-block;
+}
+#caption_container{
+    width:340px;
+    display: inline-block;
+    vertical-align: top;
+}
+#caption_wrapper{
+    width:90%;
+    height:auto;
+    margin: 0 auto;
+}
+#caption_wrapper h2{
+    margin-top:0;
+}
+#caption_wrapper h2 a{
+    color:blue;
+}
+.caption_color{
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+}
+.caption_row{
+    width: 100%;
+    height: 38px;
+}
+.caption_row p{
+    margin: 0;
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+}
+#upperrow{
+    width:1273px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.arrowkey{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+}
+.arrowkey a{
+    text-decoration: none;
+    color:black;
+}
+.arrowkey a:hover{
+    color:#48618A;
+}
+.left{
+    margin-right: 20px;
+}
+.right{
+    margin-left:20px;
+}
+.dayname{
+    width:172px;
+    margin:3px;
+    display:inline-block;
+    text-align:center;
+}
+.dayname span{
+    color:#B7B7B7;
+    font-size:22px;
+}
+.day{
+    width: 170px;
+    height: 190px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 3px;
+    vertical-align: top;
+}
+.day a{
+    text-decoration: none;
+}
+.day_info{
+    background-color: #48618A;
+    width: 100%;
+    height: 30px;
+    margin-top:-1px;
+}
+.day_info a{
+    text-decoration: none;
+}
+.day_info h3{
+    font-size: 21px;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    margin:0;
+    display:inline-block;
+    width:83%;
+    margin:0 auto;
+    text-align:right;
+}
+
+.day_info a:hover span{
+    color:white;
+}
+.day_info span{
+    text-align:left;
+    font-size:25px;
+    color:#48618A;
+    font-weight: bold;
+    margin-left:5px;
+}
+.activity_container{
+    height: 161px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.day_activities_container{
+    width: 95%;
+    min-height: 21%;
+    margin: 0 auto;
+    margin-top: 9px;
+    border-radius: 18px;
+}
+.day_activities_container a{
+    text-decoration: none;
+}
+
+.green{
+    border: 1px solid #8BD98E;
+    background-color: #8BD98E;
+}
+.orange{
+    border: 1px solid #FFAA68;
+    background-color:#FFAA68;
+}
+.red{
+    border:1px solid #FF4440;
+    background-color:#FF4440;
+}
+.grey{
+    opacity:0.4;
+}
+.day_no_activities{
+    border: 0;
+    background-color: white;
+    width: 100%;
+    height: 73%;
+    line-height: 95px;
+    font-size: 18px;
+    text-align: center;
+}
+.day_activities{
+    margin: 0 auto;
+    width: 90%;
+    color: white;
+    font-weight: bold;
+    font-size:14px;
+}
+
+::-webkit-scrollbar-button{
+    width:10px;
+    height:10px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height:10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+

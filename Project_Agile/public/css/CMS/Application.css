@@ -1,0 +1,57 @@
+.application-container label {
+    font-weight: bold;
+    margin-top: 20px;
+    min-width: 200px;
+}
+
+.application-container {
+    display: flex;
+}
+
+.application-details-container {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.label-container {
+    display: flex;
+}
+
+.label-container p {
+    margin-top: 20px;
+    margin-left: 5px;
+    word-break: break-all;
+    min-width: 200px;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    margin-right: 20px;
+}
+
+.button-container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -5px;
+
+}
+
+.button-container button{
+    width: 180px;
+    margin-right: 5px;
+}
+
+.alert-danger {
+    color: #761b18;
+    background-color: #f9d6d5;
+    border-color: #f7c6c5;
+    padding-right: 1em;
+}
+
+.alert {
+    position: relative;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    width: max-content;
+}

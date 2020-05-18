@@ -1,0 +1,126 @@
+.container {
+    width: 400px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.input {
+    height: 35px;
+    width: 390px;
+    border-radius: 30px;
+    border: 1px solid #48618a;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.extended-length{
+    width: 402px;
+    height: 39px;
+}
+
+.input-header {
+    width: 100%;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.input:focus {
+    box-shadow: 0 0 10px #48618a;
+}
+
+.textarea {
+    height: 200px;
+    width: 370px;
+    border-radius: 30px;
+    border: 1px solid #48618a;
+    font-size: 17px;
+    outline: none;
+    padding: 15px;
+    margin-top: 8px;
+    resize: none;
+}
+
+.textarea:focus {
+    box-shadow: 0 0 10px #48618a;
+}
+
+::-webkit-file-upload-button {
+    margin-top: 5px;
+    color: white;
+    background: #48618A;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 10pt;
+    outline: none;
+}
+
+::-webkit-file-upload-button:hover {
+    background-color: #1d68a7;
+    cursor: pointer;
+}
+
+.btn-extension {
+    width: 48%;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.invalid-border {
+    border-color: #e3342f;
+}
+
+.button-container {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.initiative-button {
+    margin-left: 1em;
+}
+
+
+.pagination nav {
+    width: 80%;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.pagination ul {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.pagination li {
+    display: inline-block;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 3px;
+}
+
+.page-link {
+    color: black;
+    float: left;
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 2px solid #ddd;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination .active {
+    background-color: #ddd;
+}

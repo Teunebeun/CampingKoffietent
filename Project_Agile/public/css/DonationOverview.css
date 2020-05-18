@@ -1,0 +1,171 @@
+.initiative-header{
+    margin-bottom:17px;
+}
+.activity-container{
+    width:70%;
+}
+.activity-details{
+    width:30%;
+}
+.activity-description{
+    width:50%;
+}
+.activity-description-header{
+    font-size:18px;
+}
+.donation-header{
+    width: 61%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size:20px;
+}
+
+.donation-header a, .content-header{
+    color:black;
+}
+
+.activity-description-header a{
+    color:white;
+}
+.activity-details, .activity-description{
+    background-color:#48618a;
+    color:white;
+    font-weight:bold;
+}
+.activity{
+    height:150px;
+}
+.activity-collected{
+    color:white;
+    font-weight: normal;
+    font-size:15px;
+    margin-top:0px;
+}
+.activity img{
+    max-width: 200px;
+    max-height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.activity-description-content{
+    font-weight: normal;
+    height:55%;
+    margin-bottom:0px;
+}
+.search-bar{
+    width: 175px;
+}
+.search-input select{
+    height: 35px;
+    width: 188px;
+}
+
+.activity-date, .activity-campingbaas-header{
+    font-size:13px;
+    font-weight: normal;
+    margin:0px;
+    color:white;
+}
+.margin-top {
+    margin-top:10px;
+}
+.single{
+    width:96%
+}
+@media only screen and (max-width:1300px){
+    .activity-description-content{
+        height: 48%;
+
+    }
+    .activity-collected{
+        font-size:13px;
+    }
+}
+
+@media only screen and (max-width:1015px){
+    .search-bar{
+        width:140px;
+    }
+    .search-input select{
+        width:140px;
+    }
+    .activity-description-content {
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width:900px){
+    .activity{
+        height:450px;
+
+    }
+    .activity img{
+        max-width: 100%;
+        min-height: 150px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        margin-left: 0px;
+    }
+    .activity-description{
+        height:80%;
+    }
+    .activity-details{
+        height:15%;
+    }
+    .activity-description, .activity-details {
+        width: 96%;
+    }
+    .activity-description-content{
+        height:62%;
+        font-size:14px;
+    }
+    .content-header{
+        font-size:31px;
+    }
+    .activity-collected{
+        font-size: 14px;
+    }
+    .single{
+        height:100%;
+    }
+
+    .single .activity-description-content{
+        height:77%;
+    }
+
+    .activity-description-content{
+        font-size:11px;
+    }
+    .activity-collected{
+        font-size:12px;
+    }
+    .activity-description-content{
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width:700px){
+    hr{
+        width:85%;
+    }
+    .donation-header{
+        width:80%;
+    }
+
+
+}
+@media only screen and (max-width:550px){
+    hr{
+        width:85%;
+    }
+    .donation-header{
+        width:80%;
+    }
+    .single .activity-description-content{
+        height:64%;
+    }
+
+}

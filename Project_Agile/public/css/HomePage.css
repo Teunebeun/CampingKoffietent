@@ -1,0 +1,729 @@
+#Homepage-picture {
+    width: 100%;
+}
+
+.Homepage-text-container {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+}
+
+.Homepage-text-container p {
+    width: 50%;
+    display: inline-block;
+    font-size: 18px;
+}
+
+hr {
+    width: 70%;
+}
+
+.center {
+    text-align: center;
+}
+
+.button-container button {
+    background: #48618a;
+    border-radius: 15px;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-color: #48618a;
+    margin: 10px;
+}
+
+.button-container button:focus {
+    outline: none;
+}
+
+.button-container button:hover {
+    background-color: rgb(156, 167, 223);
+    border-color: rgb(156, 167, 223);
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    border-radius: 20px;
+    padding-left: 10px;
+    height: 30px;
+    vertical-align: middle;
+    border: 1.5px solid #707070;
+    font-family: Helvetica, "FontAwesome", sans-serif;
+    width: 70%;
+    color: #707070;
+    background-color: white;
+}
+
+.search-bar:focus {
+    outline: none;
+    box-shadow: 0 0 10px #48618a;
+}
+
+.content-header {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+}
+
+.searchByText-header {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.searchByDate-header {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.search-container {
+    width: 25%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.search-container .search-input {
+    width: 100%;
+    justify-content: center;
+    display: inline-flex;
+}
+@-moz-document url-prefix() {
+    .search-container .search-input {
+        width: 100%;
+        justify-content: center;
+        display: block;
+    }
+}
+
+.search-input button {
+    border-radius: 10px;
+    border: 1.5px solid #707070;
+    width: 35px;
+    background-color: #48618a;
+    height: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    outline: none;
+}
+
+.search-input button:hover {
+    cursor: pointer;
+    background-color: rgb(156, 167, 223);
+}
+
+.activity-container {
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.activity-container-border {
+    border: solid 1px #707070;
+    border-radius: 25px;
+}
+
+.activity {
+    border: solid 1px #707070;
+    border-radius: 10px;
+    margin: 1.5%;
+    min-height: 150px;
+    display: inline-flex;
+    width: 97%;
+}
+
+.activity-special {
+    border: 2px solid white;
+    background-color: #48618a;
+}
+
+.activity-image {
+    min-height: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 30%;
+    object-fit: cover;
+}
+
+.activity-details {
+    width: 26%;
+    background-color: rgb(241, 241, 241);
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.activity-description {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 45%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+.activity-description-vacancy {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.activity-description-special {
+    width: 100%;
+    background-color: #48618a;
+}
+
+.empty-activity-description {
+    width: 70%;
+}
+
+.activity-description-header {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.activity-description-content {
+    font-size: 12px;
+    height: 110px;
+}
+
+.activity-description-more {
+    text-align: right;
+    margin: 0px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    bottom: 5px;
+    right: 5px;
+}
+
+a {
+    text-underline-position: under;
+}
+
+.activity-description-more-white {
+    color: white;
+}
+
+.activity-date {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.activity-time {
+    text-align: left;
+    font-size: 12px;
+    color: #707070;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.activity-campingbaas-header {
+    text-align: left;
+    font-size: 12px;
+    color: #707070;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.activity-campingbaas {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.search-upcoming-container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.pagination nav {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.pagination ul {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.pagination li {
+    display: inline-block;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 3px;
+}
+
+.page-link {
+    color: black;
+    float: left;
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 2px solid #ddd;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination .active {
+    background-color: #ddd;
+}
+
+.doSomething-container {
+    width: 100%;
+    display: inline-flex;
+    background-color: #48618a;
+    justify-content: space-evenly;
+}
+
+@supports (-ms-ime-align:auto) {
+    .doSomething-container {
+        justify-content: space-around;
+    }
+}
+
+.doSomething {
+    width: 20%;
+    border: solid 3px #48618a;
+    border-radius: 25px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.doSomething-image {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: -2px;
+    height: 150px;
+    background-color: #48618a;
+    object-fit: cover;
+}
+
+.doSomething-header {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+.doSomething-content {
+    font-size: 12px;
+    color: #707070;
+    text-align: center;
+    margin: 10px;
+    height: 200px;
+}
+
+.doSomething-button {
+    background: #48618a;
+    border-radius: 30px;
+    width: 80%;
+    min-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-color: #48618a;
+    margin-right: 10%;
+    margin-left: 10%;
+    outline: none;
+}
+
+.doSomething-button:hover {
+    background-color: rgb(156, 167, 223);
+    border-color: rgb(156, 167, 223);
+    cursor: pointer;
+}
+
+.big-header {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+
+.big-header-top {
+    margin-bottom: 0;
+    padding-top: 30px;
+    color: #ffffff;
+    background-color: #48618a;
+}
+
+.sponsor-container {
+    display: flex;
+    width: 98%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1%;
+    align-items: center;
+}
+
+@supports (-ms-ime-align:auto) {
+    .sponsor-container {
+        justify-content: space-around;
+    }
+}
+
+.sponsor-container a {
+    max-width: 15%;
+    max-height: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sponsor-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#insta-div {
+    max-width: 30%;
+    margin-right: 5%;
+    margin-top: 80px;
+    border: solid 1px #707070;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.insta-media {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 0;
+    padding: 0;
+}
+
+#insta-vid-overlay {
+    width: 40%;
+    height: 40%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("../img/singularItem/playbutton.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+#insta-vid-wrapper {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+#insta-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#insta-ref {
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+#insta-username {
+    font-weight: bolder;
+    font-size: x-large;
+    overflow: hidden;
+    width: 70%;
+    height: fit-content;
+    margin-left: 7%;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+#insta-user-image {
+    border-radius: 50%;
+    width: 20%;
+    margin: 0;
+}
+
+#insta-content-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-weight: 700;
+}
+
+#insta-date {
+    color: grey;
+    font-style: oblique;
+    font-size: smaller;
+}
+
+#insta-caption {
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 100%;
+    word-wrap: break-word;
+    display: block;
+}
+
+/**************initiative**********/
+.activity-vacancy-button {
+    background-color: black;
+    width: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+
+.activity-vacancy-button:hover {
+    background-color: #373737;
+    border-color: #373737;
+    color: #BCBCBC;
+    cursor: pointer;
+}
+
+.activity-vacancy-button-content {
+    margin: 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.initiative-header {
+    text-align: center;
+    color: #48618a;
+    font-size: 50px;
+}
+
+.vacancy-container {
+    width: 25%;
+    margin-right: 5%;
+}
+
+.vacancy-inner-container {
+    border: solid 1px #707070;
+    border-radius: 25px;
+    height: 85.5%;
+    padding-top: 3px;
+}
+
+.vacancy {
+    box-sizing: border-box;
+    background-color: #48618a;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: solid 3px black;
+    border-radius: 25px;
+}
+
+.vacancy:hover {
+    background-color: rgb(156, 167, 223);
+    border-color: rgb(156, 167, 223);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.vacancy-content {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.planned {
+    display: flex;
+}
+
+.application-link {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    outline: none;
+}
+
+@media screen and (max-width: 1025px) {
+    #insta-username {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Homepage-text-container p {
+        width: 90%;
+    }
+
+    .search-upcoming-container {
+        flex-direction: column;
+    }
+
+    .search-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 50px;
+    }
+
+    .activity-container {
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .activity {
+        margin: 2.5%;
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .activity-image {
+        min-height: 150px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .activity-details {
+        width: 96%;
+        background-color: rgb(241, 241, 241);
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 5%;
+    }
+
+    .activity-description {
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 96%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .activity-description-content {
+        margin-bottom: 0px;
+    }
+
+    .activity-description-more {
+        margin-bottom: 10px;
+    }
+
+    .doSomething-container {
+        flex-direction: column;
+    }
+
+    .doSomething {
+        width: 70%;
+        flex-direction: column;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+
+    .sponsor-container a {
+        max-width: 45%;
+        max-height: 15%;
+        margin: 5px;
+    }
+
+    .sponsor-container img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #insta-div {
+        max-width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-top: 5.4%;
+        border: solid 1px #707070;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #insta-username {
+        font-size: large;
+    }
+
+    .activity-description-vacancy {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    /*******************initiative*****************/
+    .vacancy-container {
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .activity-vacancy-button {
+        width: 96%;
+        display: flex;
+        padding-left: 2%;
+        padding-right: 2%;
+        justify-content: center;
+        align-items: center;
+        border: 0px solid black;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+        color: white;
+    }
+
+    .activity-vacancy-button-content {
+        margin: 0;
+        writing-mode: horizontal-tb;
+        text-orientation: mixed;
+    }
+}

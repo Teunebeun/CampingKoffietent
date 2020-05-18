@@ -1,0 +1,106 @@
+a {
+    color: inherit;
+}
+
+a:hover {
+    background: inherit;
+}
+
+.fa:hover {
+    color: #DDD;
+}
+
+/* Message View specific */
+
+div.message {
+    box-shadow: 0 0 5px #000000;
+    margin: 20px 20px 20px 0;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+div.field {
+    display: table-row;
+}
+
+div.field > span {
+    display: table-cell;
+    padding-right: 10px;
+}
+
+div.field > span:nth-child(2) {
+    font-style: italic;
+}
+
+.delete-btn, .regular-btn {
+    float: left;
+    margin-right: 1rem;
+}
+
+a#backarrow {
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Inbox View specific */
+
+.info {
+    font-weight: bold;
+}
+
+.icon {
+    display: inline-block;
+    margin-left: 10px;
+    background: transparent;
+}
+
+.icon:hover {
+    filter: brightness(150%);
+}
+
+.gg-toggle-on {
+    color: #238C47;
+}
+
+.gg-toggle-off {
+    color: #BF3030;
+}
+
+table.inbox {
+    text-align: left;
+}
+
+table.inbox th {
+    border: none;
+}
+
+table.inbox td, table.inbox th {
+    padding: 10px;
+    background: inherit;
+}
+
+table.inbox td {
+    white-space: nowrap;
+}
+
+table.inbox tr.unread {
+    font-weight: bold;
+}
+
+table.inbox tr.unread td:hover {
+    background: inherit;
+}
+
+table.inbox th i {
+    float: right;
+}
+
+table.inbox td.truncated {
+    max-width: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

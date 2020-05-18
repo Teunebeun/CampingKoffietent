@@ -1,0 +1,128 @@
+a {
+    color: inherit;
+}
+
+a:hover {
+    background: inherit;
+}
+
+.fa:hover {
+    color: #DDD;
+}
+
+/* Message View specific */
+
+div.message {
+    box-shadow: 0 0 5px #000000;
+    margin: 20px 20px 20px 0;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+div.field {
+    display: table-row;
+}
+
+.delete-btn, .regular-btn {
+    float: left;
+    margin-right: 1rem;
+}
+
+a#backarrow {
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Inbox View specific */
+
+.info {
+    font-weight: bold;
+}
+
+.icon {
+    display: inline-block;
+    margin-left: 10px;
+    background: transparent;
+}
+
+.icon:hover {
+    filter: brightness(150%);
+}
+
+.gg-toggle-on {
+    color: #238C47;
+}
+
+.gg-toggle-off {
+    color: #BF3030;
+}
+
+table.inbox {
+    text-align: left;
+}
+
+table.inbox th {
+    border: none;
+}
+
+table.inbox td, table.inbox th {
+    padding: 10px;
+    background: inherit;
+}
+
+table.inbox td {
+    white-space: nowrap;
+}
+
+table.inbox tr.seen {
+    font-weight: bold;
+}
+
+table.inbox tr.seen td:hover {
+    background: inherit;
+}
+
+table.inbox th i {
+    float: right;
+}
+
+table.inbox td.truncated {
+    max-width: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bold {
+    font-weight: bold;
+    vertical-align: top;
+    width: 10em;
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.label {
+    display: inline-block;
+    max-width: 15em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    word-break: break-word;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.left-container {
+    border-right: 1px solid #707070;
+    padding-right: 1em;
+}
+
+.right-container {
+    margin-left: 1em;
+}

@@ -1,0 +1,593 @@
+.form-container-left, .form-container-right {
+    width: 49%;
+}
+
+.form-container-left {
+    float: left;
+}
+
+.form-container-right {
+    float: right;
+    margin-right: 25px;
+}
+
+.row {
+    min-height: 55px;
+    display: flex;
+    font-size: 20px;
+}
+
+.form-label {
+    width: 175px;
+    display: inline-block;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.null-selected {
+    opacity: 0.4;
+}
+
+.label-text {
+    width: 284px;
+    display: inline-block;
+    margin: auto 0;
+}
+
+.input-round-border {
+    border-radius: 15px;
+    border: 1px solid black;
+    height: 38px;
+    padding-left: 10px;
+    width: 210px;
+    align-self: center;
+    outline: none;
+}
+
+.input-round-border:focus {
+    box-shadow: 0 0 10px #48618a;
+}
+
+.table {
+    outline: 2px groove #CECBCB;
+}
+
+.table th {
+    border-top: none;
+}
+
+.table td:first-child, .table th:first-child {
+    border-right: 2px groove #CECBCB;
+}
+
+.select-container, .delete-container {
+    width: 100px;
+}
+
+input {
+    font-size: 20px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=time]::-webkit-clear-button, input[type=date]::-webkit-calendar-picker-indicator {
+    padding-right: 8px;
+}
+
+.btn-container {
+    width: 484px;
+}
+
+.regular-btn, .delete-btn {
+    width: 48%;
+}
+
+.regular-btn {
+    float: right;
+}
+
+.delete-btn {
+    float: left;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+}
+
+.switch input {
+    display: none;
+}
+
+/* CHECKED */
+.gg-checked {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin: auto;
+}
+
+input:checked + .gg-checked:after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 3px;
+    top: -1px;
+    width: 6px;
+    height: 10px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    transform-origin: bottom left;
+    transform: rotate(45deg)
+}
+
+.gg-checked:hover {
+    background: grey;
+    cursor: pointer;
+}
+
+/* ARROW */
+.gg-arrow-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: auto 0;
+    float: right;
+}
+
+.gg-arrow-right::after,
+.gg-arrow-right::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 5px
+}
+
+.gg-arrow-right::after {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    bottom: 6.5px
+}
+
+.gg-arrow-right::before {
+    width: 11px;
+    height: 3px;
+    bottom: 9px;
+    background: currentColor
+}
+
+.gg-arrow-right:hover {
+    cursor: pointer;
+    background: grey;
+}
+
+/* ARROW SELECTED */
+.gg-arrow-right-selected {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: black;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: auto 0;
+    float: right;
+}
+
+.gg-arrow-right-selected::after,
+.gg-arrow-right-selected::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 5px
+}
+
+.gg-arrow-right-selected::after {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    bottom: 6.5px
+}
+
+.gg-arrow-right-selected::before {
+    width: 11px;
+    height: 3px;
+    bottom: 9px;
+    background: white;
+}
+
+.gg-arrow-right-selected:hover {
+    cursor: pointer;
+    background: grey;
+    border-color: grey;
+}
+
+.pagination nav {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.pagination ul {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+}
+
+.pagination li {
+    display: inline-block;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 3px;
+}
+
+.page-link {
+    color: black;
+    float: left;
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 2px solid #ddd;
+}
+
+.pagination a:hover:not(.active):not(.disabled) {
+    background-color: #ddd;
+}
+
+.pagination .active {
+    background-color: #ddd;
+    cursor: default;
+}
+
+.pagination .disabled {
+    cursor: default;
+}
+
+.not-clickable {
+    background: white !important;
+}
+
+.baas, .don {
+    display: flex;
+    width: 100%;
+}
+
+.selectedCampingbazen .form-label,
+.selectedCampingbazen .gg-arrow-right,
+.selectedCampingbazen .gg-arrow-right-selected,
+.selectedCampingbazen .label-text,
+.selectedVacancy .form-label,
+.selectedVacancy .gg-arrow-right,
+.selectedVacancy .gg-arrow-right-selected,
+.selectedVacancy .label-text,
+.selectedDonations .form-label,
+.selectedDonations .gg-arrow-right,
+.selectedDonations .gg-arrow-right-selected,
+.selectedDonations .label-text
+{
+    margin-top: 16px;
+    display: initial;
+}
+
+.selectedCampingbazen-item, .selectedDonation-item {
+    margin-left: 5px;
+}
+
+.gg-delete {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid red;
+    border-radius: 40px
+}
+
+.gg-delete::after,
+.gg-delete::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    background: red;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    top: 8px;
+    left: 3px
+}
+
+.gg-delete::after {
+    transform: rotate(-45deg)
+}
+
+.gg-delete:hover {
+    border-color: #690000;
+    cursor: pointer;
+}
+
+.gg-delete:hover::before, .gg-delete:hover::after {
+    background: #690000;
+}
+
+textarea {
+    height: 210px !important;
+    resize: none;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.vacancy-form, .activity-form {
+    width: 325px;
+    margin-left: 10px !important;
+}
+
+.image-activity-form {
+    margin: auto 0;
+}
+
+.row img {
+    margin-left: 10px;
+}
+
+.vacancy-btn-container, .activity-btn-container {
+    width: 525px;
+    margin-top: 10px;
+}
+
+.label-textarea {
+    margin-top: 12px;
+}
+
+.form-checkbox {
+    margin-left: 0;
+}
+
+.label-text-vacancy {
+    margin-top: 12px;
+}
+
+.vacancy-header {
+    display: initial;
+}
+
+.vacancy-response {
+    display: block;
+}
+
+.vacancy-select-btn-container {
+    display: inline-grid;
+}
+
+#select-application {
+    margin-top: 0;
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.search-container .search-input {
+    justify-content: left;
+    display: inline-flex;
+}
+
+.search-bar {
+    border-radius: 20px;
+    padding-left: 10px;
+    height: 30px;
+    border: 1.5px solid #707070;
+    font-family: Helvetica, "FontAwesome" !important;
+    width: 79%;
+    color: #707070;
+    background-color: white;
+    outline: none;
+}
+
+.search-input button {
+    border-radius: 10px;
+    border: 1.5px solid #707070;
+    width: 35px;
+    background-color: #48618a;
+    height: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    outline: none;
+}
+
+.search-input {
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.search-input label {
+    width: 250px;
+}
+
+.search-input button:hover {
+    cursor: pointer;
+    background-color: rgb(156, 167, 223);
+}
+
+.search-bar-container {
+    display: flex;
+    width: 80%;
+}
+
+.gg-pen {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(-45deg) scale(var(--ggs, 1));
+    width: 14px;
+    height: 4px;
+    border-right: 2px solid transparent;
+    box-shadow: 0 0 0 2px,
+    inset -2px 0 0;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    margin: auto 0;
+    margin-left: 15px;
+}
+
+.gg-pen::after,
+.gg-pen::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-pen::before {
+    background: currentColor;
+    border-left: 0;
+    right: -6px;
+    width: 3px;
+    height: 4px;
+    border-radius: 1px;
+    top: 0
+}
+
+.gg-pen::after {
+    width: 8px;
+    height: 7px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 7px solid;
+    left: -11px;
+    top: -2px
+}
+
+#selectedDonation {
+    display: block;
+}
+
+#selectedInitiative {
+    display: flex;
+}
+
+#selectedInitiative a, #selectedDonation a {
+    text-decoration: none;
+    color: black;
+}
+
+.error-row {
+    display: block;
+}
+
+.error-row .invalid-feedback {
+    position: initial !important;
+}
+
+#cheese input[type=file] {
+    margin: auto;
+}
+
+@media screen and (max-width: 1500px) {
+    .form-container-right {
+        float: left;
+    }
+
+    .form-container-right, .form-container-left {
+        width: 500px;
+    }
+}
+
+.gg-repeat {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    box-shadow: -4px -4px 0 0,
+    4px 4px 0 0;
+    width: 25px;
+    height: 11px;
+    margin: auto 0;
+    float: right;
+    margin-left: 63px;
+}
+
+.gg-repeat::after,
+.gg-repeat::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.gg-repeat::before {
+    border-left: 8px solid;
+    top: -7px;
+    right: -3px;
+}
+
+.gg-repeat::after {
+    border-right: 8px solid;
+    bottom: -7px;
+    left: -3px;
+}
+
+.gg-repeat:hover::after, .gg-repeat:hover::before {
+    border-left-color: grey;
+    border-right-color: grey;
+}
+
+.gg-repeat:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 0 0 grey,
+    -4px -4px 0 0 grey;
+}
+
+.max-btn {
+    width: 80px;
+    margin: auto 0;
+}
+
+.max-btn:disabled {
+    background-color: grey;
+    cursor: default;
+}
+
+#repeatAmount:read-only, #donationItem:read-only {
+    cursor: default;
+    color: grey;
+    background-color: lightgrey;
+}
+
+#donationItem:read-only {
+    cursor: default;
+    color: black;
+    background-color: lightgrey;
+}
+
+#donationReceived {
+    cursor: default;
+}

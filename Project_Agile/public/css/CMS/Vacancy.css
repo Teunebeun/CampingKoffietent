@@ -1,0 +1,105 @@
+/* VACANCY-CREATE */
+.container {
+    width: 400px;
+    margin: 10px 30px 10px 0;
+}
+
+.input {
+    height: 35px;
+    width: 390px;
+    border-radius: 30px;
+    border: 1px solid #48618a;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.input-header {
+    width: 100%;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.notbold {
+    font-weight: normal;
+}
+
+.input:focus {
+    box-shadow: 0 0 10px #48618a;
+}
+
+textarea {
+    height: 200px;
+    width: 370px;
+    border-radius: 30px;
+    border: 1px solid #48618a;
+    font-size: 17px;
+    outline: none;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+textarea:focus {
+    box-shadow: 0 0 10px #48618a;
+}
+
+::-webkit-file-upload-button {
+    margin-top: 5px;
+    color: white;
+    background: #48618a;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 10pt;
+    outline: none;
+}
+
+::-webkit-file-upload-button:hover {
+    background-color: #1d68a7;
+    cursor: pointer;
+}
+
+.btn-extension {
+    width: 200px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.btn-container {
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.table form {
+    margin: 0;
+}
+
+.regular-btn {
+    margin-bottom: 10px;
+}
+
+.container-container {
+    display: flex;
+}
+
+.container img {
+    width: 400px;
+}
+
+.delete {
+    width: 15%;
+}
+
+.invalid-border {
+    border-color: #e3342f;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
